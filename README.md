@@ -22,6 +22,34 @@ The final architecture is shown in the following figure.
 (Some images are cropped from [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499) and [Neural Machine Translation in Linear Time](https://arxiv.org/abs/1610.10099))  
 
 
+## Installation
+
+* Important : __Use Python2.7__
+
+Since many of the libraries required for the project has to have the exact same versions mentioned below, it is advisable to use Python Virtual Environment.
+
+### To create Virtual Environment
+
+<pre><code>
+pip install virtualenv
+</code></pre>
+Move to the folder where speech-to-text-wavenet is located
+<pre><code>
+virtualenv speech-to-text-wavenet
+</code></pre>
+
+To activate virtualenv:-
+<pre><code>
+source speech-to-text-wavenet/bin/activate
+</code></pre>
+
+### Libraries Installation
+
+<pre><code>
+cd speech-to-text-wavenet/
+pip install -r requirements.txt
+</code></pre>
+
 ## Version 
 
 Current Version : __***0.0.0.2***__
